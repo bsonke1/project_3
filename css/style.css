@@ -19,11 +19,25 @@
     padding-left: 1%;
     padding-top: 10px;
     padding-bottom: 10px;
+    font-family: canada-type-gibson,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.pom{
+    font-size: 46px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p{
+    margin: 0;
 }
 
 .subRow{
     display: flex;
     flex-direction: row;
+    align-items: baseline;
 }
 
 .subIcons{
@@ -32,6 +46,12 @@
 
 .tixIcon{
     height: 14px;
+}
+
+.subText{
+    padding-left: 5%;
+    padding-right: 13%;
+    display: inline;
 }
 
 .locateSub{
