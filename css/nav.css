@@ -1,0 +1,148 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+  
+  height: 60px;
+  background-color: #353A50 !important;
+}
+
+.logo {
+  margin-top: -5px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+}
+
+.logo-full {
+  display: block;
+  height: 30px;
+}
+
+.logo-icon {
+  display: none;
+}
+
+.main-link {
+  color: white !important;
+}
+
+.navbar-light .navbar-toggler {
+  border: 0px;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("../images/SVG/toggle.svg");
+}
+
+.custom-item {
+  font-family: Gibson, sans-serif;
+}
+
+.custom-item:hover {
+  text-decoration: underline;
+}
+
+.search-bar1 {
+  height: 32px;
+  width: 300px !important;
+  margin-left: 0.5rem!important;
+  margin-right: -1 !important;
+  border-radius: 8px 0 0 8px;
+  border: solid 1px #353A50 !important;
+  
+  padding-left: 30px;
+  background: url("../images/SVG/search.svg");
+  background-position: 8px 6px;
+  background-size: 16px;
+  background-repeat: no-repeat;
+  background-color: white;
+  
+  font-family: Gibson, sans-serif;
+}
+
+.search-bar2 {
+  height: 32px;
+  margin-right: -1 !important;
+  border-radius: 0;
+  border: solid 1px #353A50 !important;
+  
+  padding-left: 28px;
+  background: url("../images/SVG/pin.svg");
+  background-position: 6px 6px;
+  background-size: 17px;
+  background-repeat: no-repeat;
+  background-color: white;
+  
+  font-family: Gibson, sans-serif;
+}
+
+.search-bar2::placeholder {
+  color: black !important;
+}
+
+.search-btn {
+  height: 32px;
+  width: 100px;
+  background-color: #1F2333 !important;
+  color: white;
+  border-radius: 0 8px 8px 0;
+  border: 0px;
+  
+  font-family: Gibson, sans-serif;
+  line-height: 20px;
+}
+
+.search-btn:hover {
+  background-color: black !important;
+}
+
+.sub-nav {
+  background-color: #FFCC00;
+  height: 35px;
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+  
+.custom-item2 {
+  height: 35px;
+  font-family: Gibson, sans-serif;
+  font-size: 15px;
+  line-height: 35px;
+}
+
+.sub-link {
+  color: black !important;
+  margin-left: 8px;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 1100px) {
+  .search-bar1 {
+    max-width: 300px !important;
+    width: auto !important;
+  }
+  .search-bar2 {
+    max-width: 215px !important;
+    width: auto !important;
+  }
+}
