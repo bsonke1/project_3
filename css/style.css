@@ -51,7 +51,6 @@ p{
 .subText{
     padding-left: 5%;
     padding-right: 13%;
-    display: inline;
 }
 
 .locateSub{
@@ -78,22 +77,37 @@ p{
     display: flex;
     flex-direction: row;
     align-items: baseline;
+    padding-top: 10px;
+    padding-bottom: 25px;
 }
 
 .starIcon{
     height: 17.5px;
 }
 
+.eventBtns{
+    margin-top: 1px;
+    margin-bottom: 20px;
+}
+
 .buyTix{
     background-color: #353A50;
     color: #FFFFFF;
     border-radius: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 .like{
     background-color: #FFCC00;
     color: #000000;
     border-radius: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 
