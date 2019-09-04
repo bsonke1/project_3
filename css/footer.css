@@ -1,0 +1,26 @@
+footer {
+  background-color: #1F2333;
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+}
+
+.footer-col {
+  margin-right: 30px;
+}
+
+.content1 {
+  margin-bottom: 0px;
+  color: #FFCC00;
+  
+  font-family: Gibson, sans-serif;
+  font-size: 16px;
+}
+
+.content2 {
+  margin-bottom: 0px;
+  color: white;
+  
+  font-family: Gibson, sans-serif;
+  font-size: 16px;
+}

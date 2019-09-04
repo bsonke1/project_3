@@ -1,0 +1,43 @@
+body {
+    margin: 5em;
+  }
+  
+  
+  .container {
+      margin: 0 !important;
+      padding: 0 !important;
+  }
+  .no-gutters>.col, .no-gutters>[class*=col-] {
+  padding: 5px;
+  
+  }
+  
+  .div.col-md-2 {
+  
+  }
+  .card {
+      margin-top: 45px;
+      border: none;
+   
+  }
+  
+  #card-button1 {
+      background-color: #FFCC00;
+      color: #353A50;
+      border: #FFCC00;
+      width: 150px;
+      margin-bottom: 20px;
+      margin-top: 30px;
+      height: 50px;
+  }
+  #card-button2 {
+      background-color: #353A50;
+      color: white;
+      border: #353A50;
+      width: 150px;
+      height: 50px;
+  }
+  
+  .fas fa-map-marker-alt {
+      margin-rigt: 2px;
+  }
