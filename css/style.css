@@ -5,6 +5,78 @@
     height: 200px;
 }
 
+.bodyContent{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.eventInfo{
+    border: solid 1px red;
+    width: 40%;
+    margin-left: 13%;
+    margin-top: 5px;
+    padding-right: 1%;
+    padding-left: 1%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.subRow{
+    display: flex;
+    flex-direction: row;
+}
+
+.subIcons{
+    height: 20px;
+}
+
+.tixIcon{
+    height: 14px;
+}
+
+.locateSub{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.calendSub{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.tixSub{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+
+
+.rewards{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.starIcon{
+    height: 17.5px;
+}
+
+.buyTix{
+    background-color: #353A50;
+    color: #FFFFFF;
+    border-radius: 12px;
+}
+
+.like{
+    background-color: #FFCC00;
+    color: #000000;
+    border-radius: 12px;
+}
+
+
 /*font-family: canada-type-gibson,sans-serif;
 font-weight: 400;
 font-style: normal;*/
