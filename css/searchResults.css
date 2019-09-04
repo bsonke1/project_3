@@ -1,6 +1,14 @@
-body {
+.search-results {
     margin: 5em;
   }
+
+
+  .btn-secondary {
+  color: #6c757d;
+  background-color: #fff;
+  
+}
+
   
   
   .container {
@@ -38,6 +46,11 @@ body {
       height: 50px;
   }
   
-  .fas fa-map-marker-alt {
-      margin-rigt: 2px;
+span {
+    margin-right: 5px;
+   
+  }
+
+  .text {
+      margin-left: 5px;
   }
