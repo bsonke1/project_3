@@ -2,6 +2,15 @@
     margin: 5em;
   }
 
+  .searchResultsHeader {
+      color: #353A50;
+      margin-bottom: 10px;
+  }
+
+  .btn-group {
+      width: max-content;
+  }
+
 
   .btn-secondary {
   color: #6c757d;
@@ -53,4 +62,8 @@ span {
 
   .text {
       margin-left: 5px;
+  }
+
+  .pagnation {
+      margin-bottom: 25px;
   }
