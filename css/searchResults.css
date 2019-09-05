@@ -104,6 +104,10 @@ span {
       margin-bottom: 25px;
   }
 
+  #mobile-search-filter {
+      width:100%!important;
+  }
+
 
   @media screen and (max-width: 1150px) {
     #search-filter {
