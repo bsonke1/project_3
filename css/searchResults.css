@@ -1,19 +1,60 @@
+body {
+    font-family: Gibson, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 .search-results {
-    margin: 5em;
+    margin: 3em;
+  }
+
+  .searchResultsHeader {
+      color: #353A50;
+      margin-bottom: 10px;
+  }
+
+  .btn-group {
+      width: max-content;
   }
 
 
   .btn-secondary {
-  color: #6c757d;
+  color: #353A50;
   background-color: #fff;
 
 }
 
+.input-group-text {
+    background-color: white;
+}
+
+.col {
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+.fa-dollar-sign:before {
+    color:#353A50;
+}
+.fa-calendar-alt:before {
+    color:#353A50;
+}
+
+.fa-sliders-h:before {
+    color:#353A50;
+}
   
+
+#dropdown {
+    margin-right: -25px;
+    margin-left: 2px;
+}
   
   .container {
       margin: 0 !important;
       padding: 0 !important;
+
+      max-width: 1000px;
   }
   .no-gutters>.col, .no-gutters>[class*=col-] {
   padding: 5px;
@@ -27,6 +68,10 @@
       margin-top: 45px;
       border: none;
    
+  }
+
+  .card-img {
+   height: 100%;
   }
   
   #card-button1 {
@@ -53,4 +98,29 @@ span {
 
   .text {
       margin-left: 5px;
+  }
+
+  .pagnation {
+      margin-bottom: 25px;
+  }
+
+  #mobile-search-filter {
+      width:100%!important;
+  }
+
+
+  @media screen and (max-width: 1150px) {
+    #search-filter {
+        visibility: hidden;
+
+    }
+
+  }
+
+  @media screen and (min-width: 1151px) {
+    #mobile-search-filter {
+        visibility: hidden;
+
+    }
+
   }

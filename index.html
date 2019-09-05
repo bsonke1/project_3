@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Livvic&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/scroll.css">
     <link rel="stylesheet" href="css/footer.css">
     <title>ArtPass</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,7 +15,7 @@
   <body>
     <div class="top">
       <nav class="navbar navbar-expand-lg navbar-light main-nav">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html">
           <div class="logo">
             <img src="images/svg/logo.svg" class="logo-full">
             <img src="images/svg/logo-icon.svg" class="logo-icon">
@@ -75,7 +76,45 @@
         </ul>
       </div>
       
-      <img src="images/index/img.png" class="jumbo">
+      <div class="jumbo"> 
+        <div class="images">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="images/index/music.png" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/index/learn.png" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/index/gallery.png" alt="Third slide">
+              </div>
+          </div>
+        </div>
+        </div>
+        <div class="textbar">
+          <div class="text">
+            <h2 class="text1">
+              Grab a friend.&nbsp;
+            </h2>
+            <h2 class="text2" id="music">
+              Enjoy the show.
+            </h2>
+            <h2 class="text2" id="learn">
+              Learn something new.
+            </h2>
+            <h2 class="text2" id="gallery">
+              Stare at art.
+            </h2>
+          </div>
+          <div class="searchbar">
+            <form class="form-inline my-2 my-lg-0 mr-auto bar3">
+            <input class="form-control mr-sm-2 search-bar3" type="search" placeholder="Search by event, type, or venue" aria-label="Search">
+            <input class="form-control mr-sm-2 search-bar4" type="search" placeholder="Irvine, CA" aria-label="Search">
+        </form>
+          </div>
+        </div>
+      </div>
       
       <div class="mobile-banner">
         <img src="images/index/mockups.png" class="mockups">
@@ -90,25 +129,25 @@
       </div>
       
       <footer>
-        <div class="footer-col">
+        <div class="footer-col learn-more">
           <p class="content1">Learn More</p>
           <p class="content2">Research</p>
           <p class="content2">Design</p>
           <p class="content2">Testing</p>
         </div>
-        <div class="footer-col">
+        <div class="footer-col company">
         <p class="content1">Company</p>
           <p class="content2">Our Team</p>
           <p class="content2">Careers</p>
           <p class="content2">News</p>
         </div>
-        <div class="footer-col">
+        <div class="footer-col community">
         <p class="content1">Community</p>
           <p class="content2">Guidelines</p>
           <p class="content2">Support</p>
           <p class="content2">Blog</p>
         </div>
-        <div class="footer-col">
+        <div class="footer-col legal">
         <p class="content1">Legal</p>
           <p class="content2">Terms of Use</p>
           <p class="content2">Copyright</p>
@@ -124,6 +163,7 @@
   crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="js/index.js"></script>
 
   
 </html>

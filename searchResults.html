@@ -12,14 +12,15 @@
     <link rel="shortcut icon" href="images/1x/favicon.png"/>
     <link rel="stylesheet" href="https://use.typekit.net/sfi2dtn.css">
     <link href="https://fonts.googleapis.com/css?family=Livvic&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/index.css">
+    
     <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
 
     <div class="top">
         <nav class="navbar navbar-expand-lg navbar-light main-nav">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="index.html">
             <div class="logo">
               <img src="images/svg/logo.svg" class="logo-full">
               <img src="images/svg/logo-icon.svg" class="logo-icon">
@@ -82,12 +83,11 @@
 
         <section class="search-results">
 
-    <h1>Festivals in Irvine, CA</h1>
+    <h1 class=searchResultsHeader>Festivals in Irvine, CA</h1>
     <p>Showing 5 of 42 results</p>
 
 
-    <div class="container">
-            <div class="container">
+    <div class="container" id="search-filter">
                     <div class="row">
                       <div class="col">
                             <div class="btn-group" role="group" aria-label="Basic example">
@@ -97,7 +97,7 @@
                                     <button type="button" class="btn btn-secondary"><span class="fas fa-dollar-sign"></span><span class="fas fa-dollar-sign"></span><span class="fas fa-dollar-sign"></span><span class="fas fa-dollar-sign"></span></button>
                                   </div>
                       </div>
-                      <div class="col">
+                      <div class="col" id="dropdown">
                             <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
                                     <button type="button" class="btn btn-secondary">Sort By</button>
                                   
@@ -113,7 +113,7 @@
                                   </div>
                       </div>
                       <div class="col">
-                            <div class="input-group col-sm">
+                            <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Start Date" aria-label="Recipient's username" aria-describedby="basic-addon2">
                                     <div class="input-group-append">
                                       <span class="input-group-text" id="basic-addon2"><i class="far fa-calendar-alt"></i></span>
@@ -122,7 +122,7 @@
 
                       </div>
                       <div class="col">
-                            <div class="input-group col-sm">
+                            <div class="input-group">
                                     <input type="text" class="form-control" placeholder="End Date" aria-label="Recipient's username" aria-describedby="basic-addon2">
                                     <div class="input-group-append">
                                       <span class="input-group-text" id="basic-addon2"><i class="far fa-calendar-alt"></i></span>
@@ -130,10 +130,10 @@
                                   </div>
                       </div>
                       <div class="col">
-                            <div class="input-group col-sm">
-                                    <input type="text" class="form-control" placeholder="End Date" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="More Filters" aria-label="Recipient's username" aria-describedby="basic-addon2">
                                     <div class="input-group-append">
-                                      <span class="input-group-text" id="basic-addon2"><i class="far fa-calendar-alt"></i></span>
+                                      <span class="input-group-text" id="basic-addon2"><i class="fas fa-sliders-h"></i></span>
                                     </div>
                                   </div>
                       </div>
@@ -141,7 +141,19 @@
 
                     </div>
 
-                </div>
+
+                    <div class="btn-group" id="mobile-search-filter">
+                      <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
+                        Filter
+                      </button>
+                      <div class="dropdown-menu dropdown-menu-lg-right">
+                        <button class="dropdown-item" type="button">Price</button>
+                        <button class="dropdown-item" type="button"> Date</button>
+                        <button class="dropdown-item" type="button">Rating</button>
+                      </div>
+                    </div>
+  
+            
 
 
 
@@ -172,14 +184,14 @@
                           <div class="card mb-3 shadow p-3 bg-white" style="max-width: 1000px;">
                                 <div class="row no-gutters">
                                   <div class="col-md-4">
-                                    <img src="images/chessgame07-1.jpg" class="card-img" alt="Pageant-of-the-masters">
+                                    <img src="images/stepinto.jpeg" class="card-img" alt="Pageant-of-the-masters">
                                   </div>
                                   <div class="col-md-6">
                                     <div class="card-body">
-                                      <h5 class="card-title">Pageant of the Masters</h5>
-                                      <span class="fas fa-map-marker-alt"><span class="text">Irvine, CA</span></span> 
+                                      <h5 class="card-title">Step Into the Spotlight Music</h5>
+                                      <span class="fas fa-map-marker-alt"><span class="text">Laguna, CA</span></span> 
                                       <span class="far fa-calendar-alt"><span class="text">August 31</span></span>
-                                      <p class="card-text">A unique production that combines theater, performance and other artistic elements such as composition...</p>
+                                      <p class="card-text">On Fridays the Festival brings to center stage some of those amazing voices that are usually seen (and heard) in the background with the music series “Step into the Spotlight.”</p>
                                       <p class="card-text"><small class="text-muted">Read More</small></p>
                                     </div>
                                   </div>
@@ -196,14 +208,39 @@
                               <div class="card mb-3 shadow p-3 bg-white" style="max-width: 1000px;">
                                     <div class="row no-gutters">
                                       <div class="col-md-4">
-                                        <img src="images/chessgame07-1.jpg" class="card-img" alt="Pageant-of-the-masters">
+                                        <img src="images/80s-cover-bands.jpg" class="card-img" alt="Pageant-of-the-masters">
                                       </div>
                                       <div class="col-md-6">
                                         <div class="card-body">
-                                          <h5 class="card-title">Pageant of the Masters</h5>
-                                          <span class="fas fa-map-marker-alt"><span class="text">Irvine, CA</span></span> 
+                                          <h5 class="card-title">Concerts on the the Green Flashback</h5>
+                                          <span class="fas fa-map-marker-alt"><span class="text">Laguna, CA</span></span> 
                                           <span class="far fa-calendar-alt"><span class="text">August 31</span></span>
-                                          <p class="card-text">A unique production that combines theater, performance and other artistic elements such as composition...</p>
+                                          <p class="card-text">Repeat winners of the best live band/best rock band/best tribute awards in Orange County, FLASHBACK HEART ATTACK brings the authentic 80’s cover band...</p>
+                                          <p class="card-text"><small class="text-muted">Read More</small></p>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-2">
+                                            <div class="">
+                                                    <button id="card-button1" type="button" class="btn btn-primary">More Info</button>
+                                             
+                                                    <button id="card-button2" type="button" class="btn btn-secondary">Invite</button>
+                                                  </div>
+                                          </div>
+                                    </div>
+                                  </div>
+
+
+                                  <div class="card mb-3 shadow p-3 bg-white" style="max-width: 1000px;">
+                                    <div class="row no-gutters">
+                                      <div class="col-md-4">
+                                        <img src="images/unicornfest.jpeg" class="card-img" alt="Pageant-of-the-masters">
+                                      </div>
+                                      <div class="col-md-6">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Unicorn Fest</h5>
+                                          <span class="fas fa-map-marker-alt"><span class="text">San Clemente, CA</span></span> 
+                                          <span class="far fa-calendar-alt"><span class="text">August 31</span></span>
+                                          <p class="card-text">Experience a magical afternoon at Outlets at San Clemente’s first Unicorn Fest featuring centerwide activities and entertainment, including a Unicorn Meet & Greet, princesses and fairies, a Rainbow ...</p>
                                           <p class="card-text"><small class="text-muted">Read More</small></p>
                                         </div>
                                       </div>
@@ -219,7 +256,7 @@
 
                                 </section>
         
-                                  <nav aria-label="Page navigation example">
+                                  <nav class="pagnation" aria-label="Page navigation example">
                                         <ul class="pagination justify-content-center">
                                           <li class="page-item disabled">
                                             <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
@@ -232,6 +269,35 @@
                                           </li>
                                         </ul>
                                       </nav>
+
+                                    </section>
+
+                                      <footer>
+                                        <div class="footer-col">
+                                          <p class="content1">Learn More</p>
+                                          <p class="content2">Research</p>
+                                          <p class="content2">Design</p>
+                                          <p class="content2">Testing</p>
+                                        </div>
+                                        <div class="footer-col">
+                                        <p class="content1">Company</p>
+                                          <p class="content2">Our Team</p>
+                                          <p class="content2">Careers</p>
+                                          <p class="content2">News</p>
+                                        </div>
+                                        <div class="footer-col">
+                                        <p class="content1">Community</p>
+                                          <p class="content2">Guidelines</p>
+                                          <p class="content2">Support</p>
+                                          <p class="content2">Blog</p>
+                                        </div>
+                                        <div class="footer-col">
+                                        <p class="content1">Legal</p>
+                                          <p class="content2">Terms of Use</p>
+                                          <p class="content2">Copyright</p>
+                                          <p class="content2">Privacy</p>
+                                        </div>
+                                      </footer>  
 
 
 

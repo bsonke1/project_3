@@ -54,7 +54,7 @@ html, body {
   height: 32px;
   width: 300px !important;
   margin-left: 0.5rem!important;
-  margin-right: -1 !important;
+  margin-right: -1px !important;
   border-radius: 8px 0 0 8px;
   border: solid 1px #353A50 !important;
   
@@ -70,7 +70,7 @@ html, body {
 
 .search-bar2 {
   height: 32px;
-  margin-right: -1 !important;
+  margin-right: -1px !important;
   border-radius: 0;
   border: solid 1px #353A50 !important;
   
@@ -154,12 +154,12 @@ li {
     width: auto !important;
   }
   .bar1 .search-bar2 {
-    max-width: 200px !important;
+    max-width: 190px !important;
     width: auto !important;
   }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
   .navbar-collapse {
     padding: 20px;
     border-bottom: solid 10px #FFCC00;

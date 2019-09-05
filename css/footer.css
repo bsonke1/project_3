@@ -24,3 +24,22 @@ footer {
   font-family: Gibson, sans-serif;
   font-size: 16px;
 }
+
+.content2:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 530px) {
+  footer {
+    flex-direction: column;
+  }
+  .content1 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  .content2 {
+    display: none;
+  }
+}

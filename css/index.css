@@ -1,11 +1,131 @@
 html, body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 .jumbo {
-  height: calc(100vh - 100px);
+  position: relative;
   width: 100%;
+  height: 46vw;
+}
+
+.textbar {
+  position: absolute;
+  bottom: 8%;
+  left: 5%;
+  width: 100%;
+}
+
+.text1, .text2 {
+  display: inline;
+  color: white;
+  font-family: Gibson, sans-serif;
+  font-weight: 600;
+  font-size: 3.5vw;
+  text-shadow: 0px 2px 5px rgb(0, 0, 0, 65%);
+}
+
+.text2 {
+  position: absolute;
+  z-index: -1;
+}
+
+.searchbar {
+  width: 63%;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgb(0, 0, 0, 60%);
+}
+
+.search-bar3 {
+  height: 40px;
+  width: 70% !important;
+  margin-right: -1px !important;
+  border-radius: 10px 0 0 10px;
+  border-right: solid 1px #707070 !important;
+  
+  padding-left: 40px;
+  background: url("../images/SVG/search.svg");
+  background-position: 10px 9px;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-color: white;
+  
+  font-family: Gibson, sans-serif;
+}
+
+.search-bar4 {
+  height: 40px;
+  width: 30% !important;
+  margin-left: 1px !important;
+  margin-right: -1px !important;
+  border-radius: 0 10px 10px 0;
+  border: 0px;
+  
+  padding-left: 36px;
+  background: url("../images/SVG/pin.svg");
+  background-position: 8px 9px;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-color: white;
+  
+  font-family: Gibson, sans-serif;
+}
+
+.search-bar4::placeholder {
+  color: black !important;
+}
+
+.images {
+  position: absolute;
+  z-index: -2;
+  height: 100%;
+  width: 100%;
+  margin-left: 0;
+}
+
+.hero {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.hero.music {
+  background-image: url("../images/index/music.png");
+  background-size: cover;
+  left: 0%;
+}
+
+.hero.learn {
+  background-image: url("../images/index/learn.png");
+  background-size: cover;
+  left: 100%;
+}
+
+.hero.gallery {
+  background-image: url("../images/index/gallery.png");
+  background-size: cover;
+  left: 200%;
+}
+
+.hero.music2 {
+  background-image: url("../images/index/music.png");
+  background-size: cover;
+  left: 300%;
+}
+#music {
+  opacity: 1;
+  top: 0vw;
+}
+
+#learn {
+  opacity: 0;
+  top: 0vw;
+}
+
+#gallery {
+  opacity: 0;
+  top: 0vw;
 }
 
 .mobile-banner {
@@ -51,4 +171,45 @@ h1 {
 .download-badge {
   height: 60px;
   cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 850px) {
+  .mobile-banner {
+    flex-direction: column;
+  }
+  .mockups {
+    height: 300px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+  h, h1, .badges {
+    margin: 0 auto;
+  }
+  .badges {
+    padding: 10px;
+  }
+  .mockup-info {
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 776px) {
+  .bar1, .bar2 {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .jumbo {
+    height: 45.5vw;
+  }
+  .bar3 {
+    display: none;
+  }
+  .text1, .text2 {
+    font-size: 5vw;
+  }
 }
