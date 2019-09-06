@@ -97,6 +97,8 @@ span {
   }
 
   .text {
+      font-family: Gibson, sans-serif;
+      font-weight: 400;
       margin-left: 5px;
   }
 
