@@ -7,7 +7,7 @@ html, body {
 .jumbo {
   position: relative;
   width: 100%;
-  height: calc(100vh - 100px)
+  height: 46vw;
 }
 
 .textbar {
@@ -180,7 +180,7 @@ h1 {
     flex-direction: column;
   }
   .mockups {
-    height: 350px;
+    height: 300px;
     margin: 0 auto;
     padding-top: 50px;
     padding-bottom: 20px;
@@ -204,7 +204,7 @@ h1 {
 
 @media screen and (max-width: 775px) {
   .jumbo {
-    height: 65vw;
+    height: 45.5vw;
   }
   .bar3 {
     display: none;

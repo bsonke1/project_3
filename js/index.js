@@ -7,11 +7,9 @@ $('.form-control').keypress(function(e) {
 
 var cycle = 0;
 window.setInterval(function() {
-  $(".images").animate({
-    marginLeft: "-=" + $(".images").width().toString()
-  }, 400);
-  console.log(cycle);
   
+  setTimeout(function(){
+    
   var h = $(".text2").height().toString();
   if(cycle == 0) {
     $("#music").css("top","0"); $("#learn").css("top", h);
@@ -55,4 +53,5 @@ window.setInterval(function() {
   }, 0);
   }
   
+  }, 250);
 }, 5000);
