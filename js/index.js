@@ -1,15 +1,14 @@
 $('.form-control').keypress(function(e) {
- if(e.keyCode == 13) {
-   console.log("test");
-   window.location.href = "searchResults.html";
+ if(e.keyCode == 13 & $(this).val() != "") {
+   window.location.href = "results.html?=" + $(this).val();
  }
 });
 
 var cycle = 0;
 window.setInterval(function() {
+  $(".images").animate({left:"-=100%"});
   
-  setTimeout(function(){
-    
+  
   var h = $(".text2").height().toString();
   if(cycle == 0) {
     $("#music").css("top","0"); $("#learn").css("top", h);
@@ -49,9 +48,8 @@ window.setInterval(function() {
   if(cycle >= 3) {
     cycle = 0;
     $(".images").animate({
-    marginLeft: 0
+    left:"0%"
   }, 0);
   }
   
-  }, 250);
-}, 5000);
+}, 7000);

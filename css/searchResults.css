@@ -43,10 +43,6 @@ body {
 .fa-sliders-h:before {
     color:#353A50;
 }
-  
-.search-bar1::placeholder {
-  color: black !important;
-}
 
 #dropdown {
     margin-right: -25px;

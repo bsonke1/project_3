@@ -84,10 +84,6 @@ html, body {
   font-family: Gibson, sans-serif;
 }
 
-.search-bar2::placeholder {
-  color: black !important;
-}
-
 .search-btn {
   height: 32px;
   width: 100px;
@@ -134,6 +130,7 @@ li {
   color: black !important;
   margin-left: 8px;
   margin-right: 20px;
+  font-weight: 400;
 }
 
 .filler {
