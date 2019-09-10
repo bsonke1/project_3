@@ -17,6 +17,7 @@
     margin-bottom: 30px;
     align-items: center;
     justify-content: center;
+    transform: translateX(-65px)
 }
 
 .eventInfo{
@@ -137,6 +138,7 @@ p{
 
 .sliderImg{
     height: 300px;
+    transform: translateX(25px)
 }
 
 
