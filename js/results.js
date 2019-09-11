@@ -10,4 +10,4 @@ query = query.charAt(0).toUpperCase() + query.slice(1);
 console.log(query);
 
 $(".search-query").text(query);
-$(".form-control").val(query);
+$(".search-bar1").val(query);
